@@ -1,0 +1,104 @@
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+.Header-comp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(184, 64, 64);
+  padding: 10px;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#planet {
+  font-size: 2.5em;
+  margin-left: auto;
+}
+
+.header-discrip {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-bottom: 1px solid silver;
+}
+
+.header-dis {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-dis h2 {
+  font-weight: 500;
+}
+
+.header-dis p {
+  font-size: 1.1em;
+}
+
+.wrapper {
+  padding: 8px 10px;
+}
+
+.TheFlags {
+  display: flex;
+  flex-direction: column;
+}
+
+.theFlags-title {
+  text-align: center;
+}
+
+.Flags-info {
+  height: 400px;
+  display: flex;
+  padding: 10px 12px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Flags-info img {
+  user-select: none;
+  width: 450px;
+  border-radius: 20px;
+  max-height: 400px;
+}
+
+.Flags-info div {
+  font-size: 2.2em;
+  cursor: pointer;
+  color: rgb(184, 64, 64);
+}
+
+.flags-discription {
+  height: 100px;
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: center;
+  user-select: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sub-container h2 {
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  width: 300px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub-container p {
+  font-size: 1.3em;
+}
+
+
+
