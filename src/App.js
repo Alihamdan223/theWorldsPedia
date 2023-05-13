@@ -2,7 +2,7 @@ import './App.css';
 import {useState, useEffect, useReducer} from "react";
 import Header from "./Header";
 import TheFlags from "./TheFlags/TheFlags.js";
-import GeneralInfo from "./GeneralInfo";
+import GeneralInfo from "./displayData/GeneralInfo";
 
 function App() {
 
